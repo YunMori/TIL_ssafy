@@ -26,4 +26,10 @@ code ~/.gitconfig = 위에 남긴 이메일, 이름을 변경하거나 지울때
 
 git commit -> 메모장 나옴(버전을 위한 설명(커밋 메세지)) -> i를 누름 -> 메모장 insert mode -> 작성후 esc -> :wq (작성한거 저장하고 나가자) -> commit 완료 = staging area에 있던 파일들을 repository에 저장
 
+git commit -m "(메세지)" = 간단한 메세지만 쓸꺼니까 메모장으로 보내지마ㅋㅋ
+
+""안에 메세지를 쓰는 이유 = 띄워쓰기 때문에 없으면 안써도 되겠지?
+
 git log = author라는 곳에 작성자 일자 메모에 작성한 내용들을 볼 수 있음
+git log --oneline = log 한줄 보기
+git log --oneline --graph  = 한줄로 보고 싶은데 그래프로 이쁘게 보고 싶네?
