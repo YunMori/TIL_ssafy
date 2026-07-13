@@ -51,3 +51,7 @@ git remote -v = 여러 경로 설정시 보는 법
 git push -u origin master = git아 푸쉬 할껀대 origin경로로 master 브랜치로 올려줘
 
 하면 로그인 하라고 뜨는데 이건 저번주에 한 작성자 설정이 아니라, 업로더 설정이라 그럼
+
+위에꺼 매번 하기 귀찮으니까
+
+git push -u origin master = 이거 해두면 다음부턴 git push 만 하면 끝남
